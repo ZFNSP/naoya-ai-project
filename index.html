@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>禅院直哉 AI | 思想変換</title>
+    <style>
+        body { font-family: 'Hiragino Mincho ProN', serif; background-color: #1a1a1a; color: #d4d4d4; margin: 0; padding: 20px; line-height: 1.6; }
+        .container { max-width: 700px; margin: 0 auto; border: 1px solid #333; padding: 40px; background: #222; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        h1 { border-bottom: 1px solid #444; padding-bottom: 10px; font-weight: normal; color: #fff; }
+        .quote { font-style: italic; color: #888; margin-bottom: 30px; }
+        .feedback-box { margin-top: 60px; padding: 20px; background: #2a2a2a; border-radius: 4px; }
+        .btn { display: inline-block; padding: 10px 20px; border: 1px solid #555; color: #ccc; text-decoration: none; transition: 0.3s; }
+        .btn:hover { background: #ccc; color: #111; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>禅院直哉 AI</h1>
+        <p class="quote">「甚爾君以外、全員有象無象やね。」</p>
+        <p>入力された言葉を、直哉の思想と口調に変換します。</p>
+
+        <div class="feedback-box">
+            <h3>改善要望</h3>
+            <p>「甚爾君」の呼び方や思想の解釈に不備があれば、以下より報告してください。</p>
+            <a href="あなたのGoogleフォームURL" class="btn" target="_blank">要望を送信する</a>
+        </div>
+    </div>
+
+    <script>
+      window.difyChatbotConfig = { token: 'あなたのDifyトークン' }
+    </script>
+    <script src="https://udify.app/embed.min.js" id="あなたのID" defer></script>
+    </body>
+</html>
